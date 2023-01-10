@@ -1,0 +1,70 @@
+.container {
+  width: 300px;
+  margin: 20px auto;
+}
+.form {
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 20px;
+  align-items: center;
+}
+.all{
+  width: 50%;
+  margin-left: 25%;
+}
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.input:focus , .add:focus{
+  outline: none;
+}
+.add {
+  border: none;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 10% 20% 25% 45%;
+  background-color: #2196F3;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.todo{
+  width: 50%;
+  margin-left: 25%;
+}
+h1{
+  text-align: center;
+}
+.list {
+  display: grid;
+  grid-template-columns: 10% 20% 25% 45%;
+}
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  background-color: #5BC0F8;
+}
+.delete-all {
+  width: calc(20% - 25px);
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: #f44336;
+  cursor: pointer;
+  border-radius: 4px;
+}
